@@ -17,7 +17,7 @@ const Contact = () => {
         </Row>
         <Row>
           <Col md={12}>
-            <div className="text-center p-2 bg-dark rounded shadow">
+            <div className="text-center p-2 bg-primary rounded shadow">
               <h4 className="text-white fw-bold">ಶ್ರೀ ರುದ್ರಾವಧೂತ ಮಠ</h4>
               <p className="lh-base text-white fw-bold">
                 ರುದ್ರಸ್ವಾಮಿ ಪೇಠ, ಜಮಖಂಡಿ-587 301. <br/>Phone: +91 9945257512 

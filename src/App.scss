@@ -3,11 +3,11 @@
 /* make the customizations */
 $theme-colors: (
   "primary": #31316f,
-  "secondary": #eea45e,
+  "secondary": #F46128,
   "dark": #131921,
   "success": #198754,
   "info": #0dcaf0,
-  "warning": #a7c227,
+  "warning": #F4DB81,
   "danger": #dc3545,
   "light": #f8f9fa,
 );
@@ -16,7 +16,7 @@ $theme-colors: (
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 $primary-color: #31316f;
-$secondary-color: #eea45e;
+$secondary-color: #F46128;
 $ternary-color: #f8f9fa;
 $white-color: #ffffff;
 
@@ -41,4 +41,25 @@ $white-color: #ffffff;
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+}
+
+#navbar {
+  .nav-link {
+      padding: 20px 20px;
+      align-items: center;
+      color: $secondary-color;
+      font-weight: 600;
+      text-transform: uppercase;
+      &:hover {
+          color: $primary-color;
+      }
+  }
+  .dropdown-item {
+      color: $secondary-color;
+      font-weight: 600;
+      &:hover {
+          color: $primary-color;
+          background-color: $white-color;
+      }
+  }
 }

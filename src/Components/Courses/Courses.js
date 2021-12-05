@@ -4,10 +4,10 @@ import { Col, Container, Row } from "react-bootstrap";
 const Courses = () => {
   return (
     <Container>
-      <Row>
+      <Row className="bg-secondary">
         <Col md={12}>
           <div className="text-center">
-            <h2 className="text-primary fw-bold pt-2 pb-2">
+            <h2 className="text-white fw-bold pt-2 pb-2">
               ಮಂಗಳವಾರ ದಿನಾಂಕ 14-12-2021 ರಂದು ಬೆಳಿಗ್ಗೆ 11.30 ಗಂಟೆಗೆ ಬಡಮಕ್ಕಳ ಉಚಿತ
               ಶಿಕ್ಷಣಕ್ಕಾಗಿ ನಿರ್ಮಿಸಿದ ನೂತನ ಕಟ್ಟಡದ ಉದ್ಘಾಟನೆ
             </h2>
@@ -24,8 +24,10 @@ const Courses = () => {
         </Col>
       </Row>
       <Row>
-        <h2 className="text-center fw-bold">ಕಾರ್ಯಕ್ರಮಗಳ ವಿವರ</h2>
-        <Col md={3}>
+        <h2 className="text-center fw-bold text-decoration-underline pt-3 pb-3 text-primary">
+          ಕಾರ್ಯಕ್ರಮಗಳ ವಿವರ
+        </h2>
+        <Col md={4}>
           <div className="text-center p-3 m-1 bg-primary text-white">
             <p>
               ಮಂಗಳವಾರ ದಿನಾಂಕ 14-12-2011 ರಂದು ಮುಂಜಾನೆ 6-00 ಘಂಟೆಯಿಂದ ಓಂಕಾರ
@@ -34,7 +36,7 @@ const Courses = () => {
             </p>
           </div>
         </Col>
-        <Col md={3}>
+        <Col md={4}>
           <div className="text-center p-3 m-1 bg-secondary text-white">
             <p>
               ಸಾಯಂಕಾಲ 7-00 ಘಂಟೆಯಿಂದ 10-00 ಘಂಟೆಯವರೆಗೆ ಮಹಾತ್ಮರಿಂದ ಪ್ರವಚನ ನಂತರ ಶ್ರೀ
@@ -42,7 +44,7 @@ const Courses = () => {
             </p>
           </div>
         </Col>
-        <Col md={3}>
+        <Col md={4}>
           <div className="text-center p-3 m-1 bg-info text-white">
             <p>
               ಬುಧವಾರ ದಿ.15-12-2021 ರಂದು ಮುಂಜಾನೆ 8 ಘಂಟೆಗೆ ಶ್ರೀ ಸದಾಶಿವ ಮೀಸಿ ಇವರಿಂದ
@@ -51,7 +53,7 @@ const Courses = () => {
             </p>
           </div>
         </Col>
-        <Col md={3}>
+        <Col md={4}>
           <div className="text-center p-3 m-1 bg-success text-white">
             <p>
               ಸಾಯಂಕಾಲ 7-00 ಘಂಟೆಯಿಂದ 10 ಘಂಟೆಯವರೆಗೆ ಮಹಾತ್ಮರಿಂದ ಪ್ರವಚನ ಹಾಗೂ ರಾತ್ರಿ
@@ -59,8 +61,8 @@ const Courses = () => {
             </p>
           </div>
         </Col>
-        <Col md={3}>
-          <div className="text-center p-3 m-1 bg-success text-white">
+        <Col md={4}>
+          <div className="text-center p-3 m-1 bg-secondary text-white">
             <p>
               ಗುರುವಾರ ದಿ . 16-12-2021 ಮುಂಜಾನೆ 8 -00 ಘಂಟೆಗೆ ಶ್ರೀ ವಿಠ್ಠಲ ಸುರೇಶ
               ಜಿರಗಾಳ ಇವರಿಂದ ಉಪಹಾರ ಸೇವೆ ಮುಂಜಾನೆ 9-30 ರಿಂದ 12-00 ಘಂಟಿಯವರೆಗೆ
@@ -73,40 +75,52 @@ const Courses = () => {
         </Col>
       </Row>
 
-      <Row className="justify-content-center">
-        <Col md={4}>
-          <div className="text-center m-3 ">
+      <Row className="justify-content-center bg-primary mt-2 mb-2">
+        <Col md={12}>
+          <div className="text-center m-3 text-primary">
             <a
-              className="btn btn-primary text-white p-3 text-uppercase fw-bold"
+              className=" ms-2 me-2 mt-2 mb-2 btn btn-secondary text-white text-uppercase fw-bold"
               href="https://www.facebook.com/RudravadhutMathJamkhandiMumbai/"
             >
-              Facebook Page
+              Like Facebook Page
             </a>
+            <a
+              className=" ms-2 me-2 mt-2 mb-2 btn btn-secondary text-white text-uppercase fw-bold"
+              href="http://rudravadhutmath.com/"
+            >
+              Visit Main Website
+            </a>
+            <a
+              className=" m-2 btn btn-secondary text-white text-uppercase fw-bold"
+              href="https://www.facebook.com/RudravadhutMathJamkhandiMumbai/"
+            >
+              YouTube Channel
+            </a>{" "}
           </div>
         </Col>
       </Row>
-      <Row>
-        <h2 className="text-center fw-bold">
+      <Row className="pt-3 pb-3 pt-md-5 pb-md-0 justify-content-center bg-secondary">
+        <h2 className="text-center fw-bold text-white">
           ತಾವೆಲ್ಲರೂ ಸಕಾಲಕ್ಕೆ ಬಂದು ಮಹಾತ್ಮರ ದರ್ಶನಾಶೀರ್ವಾದ ಪಡೆದು ಧನ್ಯರಾಗಬೇಕಾಗಿ
           ವಿನಂತಿ.
         </h2>
 
-        <h3 className="text-center fw-bold pt-2 pb-2">
+        <h3 className="text-center fw-bold pt-2 pb-2 text- primary text-decoration-underline">
           -:ಸರ್ವರಿಗೂ ಸ್ವಾಗತ ಕೋರುವವರು:-
         </h3>
-        <Col md={6}>
-          <div className="text-center p-3 m-1 bg-primary text-white">
+        <Col md={5}>
+          <div className="text-center p-3 m-1 text-white">
             <p>
-              ಶರಣ ಸದ್ಭಕ್ತ ಮಂಡಳಿ ಜಮಖಂಡಿ , ಬಾಗಲಕೋಟ ವಿ.ಸೂ.ಸಾಮೂಹಿಕ ವಿವಾಹದ ವ್ಯವಸ್ಥೆ
-              ಇರುವದು
+              <strong>ಶರಣ ಸದ್ಭಕ್ತ ಮಂಡಳಿ</strong> <br/> ಜಮಖಂಡಿ , ಬಾಗಲಕೋಟ ಜಿಲ್ಲೆ <br /> <strong>ವಿಶೇಷ ಸೂಚನೆ:</strong> <br/> ಸಾಮೂಹಿಕ ವಿವಾಹದ
+              ವ್ಯವಸ್ಥೆ ಇರುವುದು
             </p>
           </div>
         </Col>
-        <Col md={6}>
-          <div className="text-center p-3 m-1 bg-secondary text-white">
+        <Col md={7}>
+          <div className="text-center p-3 m-1 text-white">
             <p>
-              ಪಿತಾಧಿಕಾರಿಗಳು , ವೇದಾಂತಾಚಾರ್ಯ ಕೃಷ್ಣಾನಂದ ಅವಧೂತರು ಮುಂಬಯಿ ) ,ಜಮಖಂಡಿ,
-              ಕರಡಕಲ್( ಲಿಂಗಸ್ಗೂರ ) ಆದಿ <br /> ಸಂಪರ್ಕಿಸಿ : ಮೊ . 9945257512
+              <strong>ಪೀಠಾಧಿಕಾರಿಗಳು,</strong><br/> ವೇದಾಂತಾಚಾರ್ಯ ಕೃಷ್ಣಾನಂದ ಅವಧೂತರು ಮುಂಬಯಿ,<br />{" "}
+              ಜಮಖಂಡಿ, ಕರಡಕಲ್( ಲಿಂಗಸ್ಗೂರ ) ಆದಿ <br /> ಸಂಪರ್ಕಿಸಿ : ಮೊ . 9945257512
             </p>
           </div>
         </Col>
